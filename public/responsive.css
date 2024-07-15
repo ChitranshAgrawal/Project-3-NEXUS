@@ -1,0 +1,374 @@
+@media (max-width: 1024px) {
+
+    .parallax-inner-1 h1 {
+        margin-top: 50%;
+        margin-bottom: 50%;
+    }
+
+    .parallax-text-1 {
+        padding: 20px;
+        font-size: 0.8rem;
+    }
+
+    .join-btn {
+        margin: 20px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .work {
+        width: 100vw;
+    }
+
+    .work-wrapper-inner {
+        width: 30%;
+    }
+
+    .website-page-2 {
+        font-size: 0.8rem;
+    }
+
+    .website-page-3 .project-text {
+        font-size: 0.8rem;
+        letter-spacing: 0;
+        line-height: 0;
+    }
+
+    .projects-inner .project-div img {
+        width: 11rem;
+        height: 9rem;
+    }
+
+    .projects-inner {
+        margin-right: 30px;
+        margin-top: 10px;
+    }
+
+    .website-page-3 h2 {
+        margin-left: 40px;
+    }
+
+    .social-media {
+        width: 500px;
+    }
+
+    .feedback .feedback-btn {
+        margin: 15px;
+    }
+    
+}
+
+
+@media (max-width: 768px) {
+
+    .parallax-inner-1 h1 {
+        margin-top: 70%;
+        margin-bottom: 50%;
+    }
+
+    .parallax-1-content {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .parallax-text-1 {
+        width: 100%;
+    }
+
+    .join-btn {
+        width: 50%;
+        margin-left: 62.5%;
+    }
+
+    .parallax-inner-2 {
+        height: 100vh;
+        padding: 5px;
+    }
+
+    .work-wrapper .work .work-wrapper-inner {
+        width: 30%;
+        font-size: .85rem;
+    }
+
+    .project-text-head {
+        letter-spacing: 0;
+        line-height: 50px;
+    }
+
+    .project-text .project-text-inner {
+        line-height: 30px;
+        width: 70%;
+    }
+
+    .connection-wrapper .connection .social-media {
+        width: 300px;
+        font-size: 1.3rem;
+    }
+
+}
+
+
+@media (max-width: 700px) {
+
+    .navbar-content a {
+        display: none;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .hider {
+        display: none;
+    }
+
+    .hamburger {
+        display: inline-block;
+        font-size: 1rem;
+        color: #ff0066;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    .hamburger-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.35);
+        position: absolute;
+        width: 100vw;
+    }
+
+    .hamburger-content .hamLink {
+        font-size: 0.8rem;
+        margin: 10px;
+    }
+
+    .hamburger-content .hamLink a {
+        color: #ff0066;
+        font-size: 1.1rem;
+        font-weight: 800;
+        text-decoration: none;
+        filter: drop-shadow(1px 1px 20px black);
+    }
+
+    .hamburger-content .hamLink i {
+        color: #ff0066;
+        font-size: 2rem;
+        font-weight: 800;
+        cursor: pointer;
+    }
+
+    .parallax-inner-1 h1 {
+        margin-top: 70%;
+        margin-bottom: 50%;
+    }
+
+    .website-page-1 {
+        height: 200vh;
+    }
+
+    h2, .work-wrapper, .work-wrapper-inner {
+        padding: 0;
+    }
+
+    .work-wrapper .work {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: auto;
+        width: 100vw;
+    }
+
+    .work .work-wrapper-inner {
+        margin: 30px;
+        min-width: 300px;
+    }
+
+    .website-page-2 .page-2-text p {
+        font-size: 1rem;
+        letter-spacing: 2px;
+        line-height: normal;
+    }
+
+    .data-wrapper .data {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .website-page-3 {
+        height: 200vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center ;
+    }
+
+    .website-page-3 .projects-wrapper {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    marquee {
+        margin-bottom: 70px;
+    }
+
+    .projects-inner .project-div {
+        gap: 50px;
+        padding: 10px;
+    }
+
+    .project-div .div img {
+        height: 11rem;
+        width: 13rem;
+        padding: 20px;
+    }
+
+    .project-text .project-text-inner {
+        width: 100%;
+        letter-spacing: 2px;
+    }
+
+    .project-text-head {
+        margin-bottom: 20px;
+    }
+
+    .website-page-4 {
+        height: auto;
+    }
+
+    .website-page-4 .page-4-inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .page-4-inner .form {
+        padding: 30px;
+    }
+
+    .social-media {
+        min-width: 400px;
+    }
+
+}
+
+
+@media (max-width: 425px) {
+
+    .parallax-inner-1 h1 {
+        margin-top: 500px;
+        margin-bottom: 100%;
+    }
+
+    h2 {
+        margin-right: 40px;
+    }
+
+    .page-2-text p {
+        width: 100vw;
+        margin-left: -115px;
+    }
+
+    .data-wrapper .data {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .projects-wrapper .project-text {
+        margin-top: 30px;
+        width: 100vw;
+    }
+
+    .project-text .project-text-inner {
+        padding: 20px;
+    }
+
+    .projects-inner .project-div {
+        gap: 20px;
+    }
+
+    .data-wrapper .data .num-div {
+        margin: 30px;
+    }
+
+    .project-div .div img {
+        height: 10rem;
+        width: 11rem;
+        padding: 20px;
+    }
+
+    .projects-inner {
+        margin: 0;
+        margin-top: 50px;
+    }
+
+    marquee {
+        font-size: 0.8rem;
+        height: 50px;
+        margin-bottom: 30px;
+    }
+
+    .website-page-4 h2 {
+        text-align: center;
+        margin: 0;
+    }
+
+    .div-1 .social-connections a {
+        margin: 2px;
+    }
+
+    .div-1 .social-connections {
+        width: 100%;
+        margin-left: -10px;
+    }
+
+    .div-2, .div-3 {
+        font-size: .8rem;
+    }
+
+}
+
+
+@media (max-width: 375px) {
+    
+    .website-page-1 h2 {
+        margin-left: 70px;
+        font-size: xx-large;
+    }
+
+    .website-page-2 .page-2-text h2 {
+        width: 100%;
+        font-size: 4em;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    .footer-wrapper .footer-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+}
+

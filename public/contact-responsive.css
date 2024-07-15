@@ -1,0 +1,178 @@
+@media (max-width: 1024px) {
+
+    h1 {
+        margin: 0;
+        margin-top: 50px;
+    }
+
+    .about-founders .founders .founder a {
+        font-size: 2vw;
+    }
+
+}
+
+
+@media (max-width: 900px) {
+
+    .parallax-text-1 {
+        width: 90vw;
+    }
+
+    .about-founders-wrapper {
+        height: 300vh;
+    }
+
+    .founders {
+        height: 250vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .founder-text p {
+        width: 90vw;
+        text-align: justify;
+    }
+
+    .founders .founder {
+        width: 70vw;
+    }
+
+    .founder pre {
+        font-size: 4vw;
+    }
+
+    .about-founders .founders .founder a {
+        font-size: 3vw;
+        margin: 0;
+        padding: 0;
+    }
+
+}
+
+
+@media (max-width: 800px) {
+
+    .about-founders .founders .founder img {
+        width: 50vw;
+        height: 50vw;
+    }
+
+}
+
+
+@media (max-width: 700px) {
+
+    .navbar-content a {
+        display: none;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .hider {
+        display: none;
+    }
+
+    .hamburger {
+        display: inline-block;
+        font-size: 1rem;
+        color: #ff0066;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    .hamburger-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.35);
+        position: absolute;
+        width: 100vw;
+    }
+
+    .hamburger-content .hamLink {
+        font-size: 0.8rem;
+        margin: 10px;
+    }
+
+    .hamburger-content .hamLink a {
+        color: #ff0066;
+        font-size: 1.1rem;
+        font-weight: 800;
+        text-decoration: none;
+        filter: drop-shadow(1px 1px 20px black);
+    }
+
+    .hamburger-content .hamLink i {
+        color: #ff0066;
+        font-size: 2rem;
+        font-weight: 800;
+        cursor: pointer;
+    }
+
+}
+
+
+@media (max-width: 426px) {
+
+    .parallax-inner-1 h1 {
+        margin: 100px;
+    }
+
+    .join-btn {
+        margin-left: 450px;
+        width: 70vw;
+    }
+
+    .about-founders-wrapper {
+        height: 200vh;
+    }
+
+    .founder-text p {
+        margin-left: 80px;
+        text-align: center;
+        width: 60vw;
+        letter-spacing: normal;
+    }
+
+    .about-founders .founders .founder {
+        height: 300px;
+    }
+
+    .div-1 .social-connections a {
+        margin: 2px;
+    }
+
+    .div-1 .social-connections {
+        width: 100%;
+        margin-left: -10px;
+    }
+
+    .div-2, .div-3 {
+        font-size: .8rem;
+    }
+
+}
+
+
+@media (max-width: 376px) {
+
+    footer {
+        height: auto;
+    }
+
+    .footer-wrapper .footer-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+}
+
+

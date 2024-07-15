@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC TechWare Ltd.</title>
+    <link rel="stylesheet" href="/services.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/services-responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="/website-logo.jpg">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="logo">Logo</div>
+                <div class="navbar-content">
+                    <a href="/home" class="actives">Home</a>
+                    <a href="/home/about-us" class="actives">About Us</a>
+                    <a href="/home/services" class="actives activeLink">Services</a>
+                    <a href="/home/contact-us" class="actives">Contact Us</a>
+                    <div class="hamburger hide">
+                        <i class="fa-solid fa-bars fa-3x ham"></i>
+                    </div>        
+                </div>
+            </div>
+        </nav>
+        <div class="hamburgerVisible hider">
+            <div class="hamburger-content">
+                <div class="hamLink"> <a href="/home">Home</a> </div>
+                <div class="hamLink"> <a href="/home/about-us">About us</a> </div>
+                <div class="hamLink"> <a href="/home/services">Services</a> </div>
+                <div class="hamLink"> <a href="/home/contact-us">Contact us</a> </div>
+                <div class="closer hamLink"> <i class="fa-solid fa-xmark"></i> </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="content">
+        <section>
+            <section class="parallax-1">
+                <div class="parallax-inner-1">
+                    <h1>Services</h1>
+                </div>
+            </section>
+            <h2>Our Quality Services</h2>
+            <div class="parallax-1-content">
+                <div class="laptop-img">
+                    <img src="/images/services-page-photo.jpeg" alt="img" height="378px" width="612px">
+                </div>
+                <p class="parallax-text-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ea esse fuga veniam. Eius aliquid ipsa, laudantium commodi alias mollitia, placeat asperiores quia labore quas dolorum neque, excepturi obcaecati voluptatum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ea esse fuga veniam. Eius aliquid ipsa, laudantium commodi alias mollitia, placeat asperiores quia labore quas dolorum neque, excepturi obcaecati voluptatum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ea esse fuga veniam. Eius aliquid ipsa, laudantium commodi alias mollitia, placeat asperiores quia labore quas dolorum neque, excepturi obcaecati voluptatum.
+                    <button class="join-btn">JOIN</button>
+                </p>
+            </div>
+        </section>
+
+
+        <div class="about-founders-wrapper">
+            <div class="about-founders">
+
+                <div class="founder-text">
+                    <h2>Our Work of Domain</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo soluta quos voluptas repellat reiciendis error dolorem!</p>
+                </div>
+
+                <div class="founders">
+                    <div class="founder">
+                        <img src="/images/web-dev-services.jpg" alt="web development">
+                        <span><pre>Web Development</pre></span>
+                        <span><a href="#">Know More!</a></span>
+                    </div>
+                    <div class="founder">
+                        <img src="/images/dig-mar-services.avif" alt="digital marketing">
+                        <span><pre>Digital Marketing</pre></span>
+                        <span><a href="#">Know More!</a></span>
+                    </div>
+                    <div class="founder">
+                        <img src="/images/graphic-des-services.jpg" alt="graphic design">
+                        <span><pre>Graphic Design</pre></span>
+                        <span><a href="#">Know More!</a></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <footer>
+        <div class="footer-wrapper">
+            <div class="footer-content">
+                <div class="div-1">
+                    <div class="logo">Logo</div>
+                    <div class="social-connections">
+                        <a href=""><i class='bx bxl-linkedin-square' ></i></a>
+                        <a href=""><i class='bx bxl-instagram-alt' ></i></a>
+                        <a href=""><i class='bx bxl-twitter' ></i></a>
+                        <a href=""><i class='bx bxl-facebook-square' ></i></a>
+                        <a href=""><i class='bx bxl-whatsapp-square' ></i></a>
+                    </div>
+                </div>
+                <div class="div-2">
+                    <h3>Company</h3>
+                    <a href="#">About Us</a>
+                    <a href="#">Consultant</a>
+                    <a href="#">Internships</a>
+                    <a href="#">Career</a>
+                </div>
+                <div class="div-3">
+                    <h3>Services</h3>
+                    <a href="#">Web Development</a>
+                    <a href="#">Digital Marketing</a>
+                    <a href="#">Creative Design</a>
+                    <a href="#">Website Services</a>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <div class="copyright-text">Copyright © CP TechWare Ltd. | All rights reserved.</div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script>
+        let currentPages = document.querySelectorAll(".actives");
+
+        currentPages.forEach(currentPage => {
+            currentPage.addEventListener("click" , () => {
+                document.querySelector(".activeLink")?.classList.remove("activeLink");
+                currentPage.classList.add("activeLink");
+            });
+        });
+
+
+        const hamLogo = document.querySelector(".hamburger");
+        const hamburgerContent = document.querySelector(".hamburger-content");
+        const hamburgerVisible = document.querySelector(".hamburgerVisible");
+        const navbar = document.querySelector(".navbar");
+        const h1Head = document.querySelector("h1");
+
+        hamLogo.addEventListener("click" , () => {
+            hamburgerVisible.classList.remove("hider");
+            navbar.classList.add("hider");
+            h1Head.classList.add("hider");
+        });
+
+        const cross = document.querySelector(".closer");
+
+        cross.addEventListener("click" , () => {
+            hamburgerVisible.classList.add("hider");
+            navbar.classList.remove("hider");
+            h1Head.classList.remove("hider");
+        });
+
+    </script>
+
+</body>
+</html>
+
+
